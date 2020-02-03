@@ -3,7 +3,10 @@ const imageContent = document.getElementById('image');
 
 
 
-const imageComponent =<div>
+class Home extends React.Component {
+    render() {
+        return (
+<div>
                   <header>Chintan Bhadrecha</header>
                   <img alt="react logo"  src="headshot.jpg"  />
                         <p>I am Chintan Bhadrecha, currently pursuing masters in Computer Science from San Diego State University.
@@ -22,5 +25,8 @@ const imageComponent =<div>
                         <p>
                         <button> <a href="https://github.com/Chintan012/CS648Assignment01.git" target="_blank">VIEW MY GITHUB REPO</a></button>
                         </p>
-                      </div>;
-ReactDOM.render(imageComponent, imageContent);
+                      </div>
+                    );
+}
+}
+ReactDOM.render(<Home />, imageContent);

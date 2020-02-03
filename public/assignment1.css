@@ -21,6 +21,11 @@ text-align: center;
 
 }
 
+button{
+    padding: 0.5rem 2rem;
+}
+
+
 .footer {
    position: fixed;
    left: 0;
