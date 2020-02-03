@@ -31,9 +31,14 @@ const imageComponent = React.createElement(
     "p",
     null,
     React.createElement(
-      "a",
-      { href: "https://github.com/Chintan012/CS648Assignment01" },
-      "Visit my GitHub"
+      "button",
+      null,
+      " ",
+      React.createElement(
+        "a",
+        { href: "https://github.com/Chintan012/CS648Assignment01.git", target: "_blank" },
+        "VIEW MY GITHUB REPO"
+      )
     )
   )
 );

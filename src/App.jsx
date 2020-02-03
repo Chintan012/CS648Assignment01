@@ -20,7 +20,7 @@ const imageComponent =<div>
                       Also successfully helped the team to come up with 80% efficient solution. With this experience I worked as the Vice President
                         at Robotics club at Watumull college of Engineering.</p>
                         <p>
-                        <a href="https://github.com/Chintan012/CS648Assignment01">Visit my GitHub</a>
+                        <button> <a href="https://github.com/Chintan012/CS648Assignment01.git" target="_blank">VIEW MY GITHUB REPO</a></button>
                         </p>
                       </div>;
 ReactDOM.render(imageComponent, imageContent);
