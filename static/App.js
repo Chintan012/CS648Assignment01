@@ -5,7 +5,7 @@ const imageComponent = React.createElement(
   "div",
   null,
   React.createElement(
-    "h1",
+    "header",
     null,
     "Chintan Bhadrecha"
   ),
@@ -26,6 +26,15 @@ const imageComponent = React.createElement(
     "where I led team of 5 students to offer them direction and guidance with the purpose of learning aspects of robotics.",
     React.createElement("br", null),
     "Also successfully helped the team to come up with 80% efficient solution. With this experience I worked as the Vice President at Robotics club at Watumull college of Engineering."
+  ),
+  React.createElement(
+    "p",
+    null,
+    React.createElement(
+      "a",
+      { href: "https://github.com/Chintan012/CS648Assignment01" },
+      "Visit my GitHub"
+    )
   )
 );
 ReactDOM.render(imageComponent, imageContent);

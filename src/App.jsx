@@ -4,8 +4,8 @@ const imageContent = document.getElementById('image');
 
 
 const imageComponent =<div>
-                  <h1>Chintan Bhadrecha</h1>
-                  <img alt="react logo" src="headshot.jpg"  />
+                  <header>Chintan Bhadrecha</header>
+                  <img alt="react logo"  src="headshot.jpg"  />
                         <p>I am Chintan Bhadrecha, currently pursuing masters in Computer Science from San Diego State University.
                           I have dream of becoming technical architect at a reputed company.<br/>
                            I am a patient, hardworking and dedicated person.
@@ -19,6 +19,8 @@ const imageComponent =<div>
                      where I led team of 5 students to offer them direction and guidance with the purpose of learning aspects of robotics.<br/>
                       Also successfully helped the team to come up with 80% efficient solution. With this experience I worked as the Vice President
                         at Robotics club at Watumull college of Engineering.</p>
-
+                        <p>
+                        <a href="https://github.com/Chintan012/CS648Assignment01">Visit my GitHub</a>
+                        </p>
                       </div>;
 ReactDOM.render(imageComponent, imageContent);
